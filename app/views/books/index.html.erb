@@ -8,6 +8,8 @@
   <h6>Body</h6>
   <span><%= book.body %></span>
   
+<%= link_to "Destroy", destroy_book_path(@book.id), method: :delete, "data-confirm" => "Are you sure?" %>
+  
 <% end %>
 
 
