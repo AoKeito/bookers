@@ -13,3 +13,48 @@
  *= require_tree .
  *= require_self
  */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main {
+  margin: 20px;
+}
+
+.main-content {
+  margin: 20px auto;
+}
+
+body {
+  margin: 20px;
+}
+
+.notice {
+  color:green;
+}
+
+tbody {
+  display: block;
+}
+
+.text {
+  display: flex;
+  margin: 20px;
+}
+
+.item {
+  display: flex;
+  margin: 20px auto;
+}
+
+td, th {
+  padding: 5px;
+}
+
+.error {
+  color: #FFF;
+  background-color: red;
+}
